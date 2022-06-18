@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* FOR A PERFECT BACKGROUND PICTURE*/
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: aliceblue;
+    font-family: 'Patrick Hand', cursive;
+    text-shadow: 0px 0px 20px #837979;
+    font-weight: bold;
+    font-size:x-large;
+}
+main{
+    padding: 15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+}
+#time{
+    text-align: center;
+    font-size: 6rem;
+}
+#crypto-top{
+    display: flex;
+    align-items: center ;
+}
+#crypto-top span{
+    margin-left: 10px;
+}
+#prices p{
+    margin: 0;
+    font-weight: 100;
+}
+#weather{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap ;
+    justify-content: flex-end;
+}
+#weather img{
+    width: 180px;
+}
+p.city{
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    font-size: 2rem;
+    margin: 0;
+    margin-top: -80px;
+}
+p.temp{
+    margin: 0;
+    font-size: 4.5rem;
+    margin-left: -15px;
+}
